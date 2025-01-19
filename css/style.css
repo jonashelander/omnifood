@@ -201,7 +201,7 @@
   /* Need to use padding-top/bottom instead
   of height as a workaround to height 
   not working. This padding is 60% of the parent 
-  elements width */
+  elements width */ 
   padding-bottom: 60%;
   background-color: #fdf2e9;
   z-index: -2;
@@ -232,6 +232,10 @@
   overflow: hidden;
 }
 
+.meal-content {
+  padding: 3.2rem 4.8rem 4.8rem 4.8rem;
+}
+
 .meal-tags {
   margin-bottom: 1.2rem;
 }
@@ -244,6 +248,7 @@
   background-color: #51cf66;
   color: #333;
   border-radius: 100px;
+  font-weight: 600;
 }
 
 .meal-title {

@@ -201,7 +201,7 @@
   /* Need to use padding-top/bottom instead
   of height as a workaround to height 
   not working. This padding is 60% of the parent 
-  elements width */ 
+  elements width */
   padding-bottom: 60%;
   background-color: #fdf2e9;
   z-index: -2;
@@ -227,9 +227,15 @@
 }
 
 .meal {
-  box-shadow: 0 2.4rem 48px rgba(0,0,0,0.075);
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
   border-radius: 11px;
   overflow: hidden;
+  transition: all 0.4s;
+}
+
+.meal:hover {
+  transform: translateY(-1.2rem);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
 }
 
 .meal-content {
@@ -238,6 +244,8 @@
 
 .meal-tags {
   margin-bottom: 1.2rem;
+  display: flex;
+  gap: 0.4rem;
 }
 
 .tag {
@@ -245,10 +253,19 @@
   padding: 0.4rem 0.8rem;
   font-size: 1.2rem;
   text-transform: uppercase;
-  background-color: #51cf66;
   color: #333;
   border-radius: 100px;
   font-weight: 600;
+}
+
+.tag--vegetarian {
+  background-color: #51cf66;
+}
+.tag--vegan {
+  background-color: #a9e34b;
+}
+.tag--paleo {
+  background-color: #ffd43b;
 }
 
 .meal-title {
@@ -280,4 +297,29 @@
 
 .meal-img {
   width: 100%;
+}
+
+.all-recipes {
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.list-item {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.list-icon {
+  width: 3rem;
+  height: 3rem;
+  color: #e67e22;
 }

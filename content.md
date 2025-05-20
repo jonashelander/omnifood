@@ -101,7 +101,6 @@ Complete: $649 per month
 Inexpensive, healthy and great-tasting meals, without even having to order manually! It feels truly magical. (Dave Bryson)
 The AI algorithm is crazy good, it chooses the right meals for me every time. It's amazing not to worry about food anymore! (Ben Hadley)
 Omnifood is a life saver! I just started a company, so there's no time for cooking. I couldn't live without my daily meals now! (Steve Miller)
-I got Omnifood for the whole family, and it frees up so much time! Plus, everything is organic and vegan and without plastic. (Hannah Smith)
 
 ### Section with logos of featured publications [see images]
 
@@ -127,18 +126,17 @@ Recipe directory
 Help center
 Privacy & terms
 
-
 ######
 
 ## Sections
 
- - Navigation
- - Hero
- - Featured in
- - How it works
- - Meals (and list of diets)
- - Gallery
- - Testemonials + Gallery
- - Pricing + Features
- - CTA
- - Footer
+- Navigation
+- Hero
+- Featured in
+- How it works
+- Meals (and list of diets)
+- Gallery
+- Testemonials + Gallery
+- Pricing + Features
+- CTA
+- Footer

@@ -304,25 +304,7 @@
   font-size: 1.8rem;
 }
 
-.list {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  gap: 1.6rem;
-}
 
-.list-item {
-  font-size: 1.8rem;
-  display: flex;
-  align-items: center;
-  gap: 1.6rem;
-}
-
-.list-icon {
-  width: 3rem;
-  height: 3rem;
-  color: #e67e22;
-}
 
 /* ********************************************* */
 /* SECTION TESTIMONIALS  */
@@ -368,7 +350,7 @@
   padding: 1.6rem;
 }
 
-.gallery-item  {
+.gallery-item {
   overflow: hidden;
 }
 
@@ -379,4 +361,12 @@
 .gallery-item img:hover {
   transform: scale(1.1);
   transition: all 0.4s;
+}
+
+/* ********************************************* */
+/* PRICING SECTION  */
+/* ********************************************* */
+
+.section-pricing {
+  padding: 9.6rem 0;
 }

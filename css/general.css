@@ -32,6 +32,8 @@ Paragraf default: 1.6
 #45260a
 - Accents:
 - Greys: 
+#888
+#767676 (lightest grey allowed on white #fff)
 #6f6f6f (lightest gray allowed on #fdf2e9) 
 #555
 #333
@@ -111,6 +113,10 @@ This is the reason why the margin bottom code above is commented out. */
 
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
 }
 
 .grid--center-v {

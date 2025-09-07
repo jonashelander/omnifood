@@ -16,6 +16,7 @@ Default: 1
 Small: 1.05
 Medium: 1.2
 Paragraf default: 1.6
+Large: 1.8
 
 - Letter spacing
   0.5px
@@ -47,8 +48,7 @@ Medium: 11px
 
 --- 07 WHITESPACE
 
-SPACING SYSTEM (px)
-2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+c
 */
 
 * {
@@ -59,7 +59,7 @@ SPACING SYSTEM (px)
 
 html {
   /*
-  To set font-size to 10px and respect  the user browser fontsize settings
+  To set font-size to 10px and respect  the user browser font size settings
   10px / 16px = 0.625 which is equal to 62.5%
   */
   font-size: 62.5%;
@@ -87,8 +87,8 @@ body {
 
 .grid {
   display: grid;
+  column-gap: 6.4rem;
   row-gap: 9.6rem;
-  column-gap: 4.6rem;
   /* margin-bottom: 9.6rem; */
 }
 
@@ -240,6 +240,7 @@ This is the reason why the margin bottom code above is commented out. */
   display: flex;
   align-items: center;
   gap: 1.6rem;
+  line-height: 1.2;
 }
 
 .list-icon {

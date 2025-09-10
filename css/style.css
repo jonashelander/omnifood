@@ -199,7 +199,7 @@
 .step-img-box::after {
   content: "";
   display: block;
-  width: 60%;
+  /* width: 60%; */
   /* height: 60%; */
   /* Need to use padding-top/bottom instead
   of height as a workaround to height 

@@ -11,6 +11,7 @@
   /* Because we want it to be sticky later */
   height: 9.6rem;
   padding: 0 4.8rem;
+  position: relative;
 }
 
 .logo {
@@ -56,6 +57,24 @@
   background-color: #cf711f;
 }
 
+/* MOBILE */
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: none;
+}
+
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #333;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
+}
+
 /* ********************************************* */
 /* HERO SECTION */
 /* ********************************************* */
@@ -95,6 +114,7 @@
 .delivered-imgs {
   display: flex;
 }
+
 .delivered-imgs img {
   display: flex;
   height: 4.8rem;
@@ -261,9 +281,11 @@
 .tag--vegetarian {
   background-color: #51cf66;
 }
+
 .tag--vegan {
   background-color: #a9e34b;
 }
+
 .tag--paleo {
   background-color: #ffd43b;
 }
@@ -336,6 +358,7 @@
   line-height: 1.8;
   margin-bottom: 1.6rem;
 }
+
 .testimonial-name {
   font-size: 1.6rem;
   color: #6f6f6f;
@@ -504,11 +527,9 @@
 }
 
 .cta-img-box {
-  background-image: linear-gradient(
-      to right bottom,
+  background-image: linear-gradient(to right bottom,
       rgba(235, 151, 78, 0.35),
-      rgba(230, 125, 34, 0.35)
-    ),
+      rgba(230, 125, 34, 0.35)),
     url(../img/eating.jpg);
   background-size: cover;
   background-position: center;
@@ -528,6 +549,7 @@
   font-weight: 500;
   margin-bottom: 1.2rem;
 }
+
 .cta-form input,
 .cta-form select {
   width: 100%;

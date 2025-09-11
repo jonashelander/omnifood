@@ -81,6 +81,8 @@
         </div>
 
         <div class="hero-image-box">
+          <!-- Since sarafi and other browsers can't support webp properly
+           we hava implemented a fallback method using <picture> and <source> -->
           <picture>
             <source srcset="img/hero.webp" type="image/webp" />
             <source srcset="img/hero-min.png" type="image/png" />
@@ -487,20 +489,20 @@
               You can cancel or pause anytime. And the first meal is on us!
             </p>
 
-            <form class="cta-form" action="#">
+            <form class="cta-form" name="sign-up" netlify>
               <div>
-                <label for=Full name-name">Full name</label>
-                <input id=Full name-name" type="text" type="text" placeholder="John Smith" required>
+                <label for="full-name">Full name</label>
+                <input id="full-name" name="full-name" type="text" type="text" placeholder="John Smith" required>
               </div>
 
               <div>
                 <label for="email">Email</label>
-                <input id="email" type="text" type="text" placeholder="me@example.com" required>
+                <input id="email" name="email" type="text" type="text" placeholder="me@example.com" required>
               </div>
 
               <div>
                 <label for="select-where">Where did you hear about us?</label>
-                <select id="select-where" required>
+                <select id="select-where" name="select-where" required>
                   <option value="">Please choose one option:</option>
                   <option value="friends">Friends or family</option>
                   <option value="youtube">Youtube</option>
